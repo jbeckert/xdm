@@ -21,7 +21,7 @@
           "description": "The scope that is associated with the decision. This is the name of the scope that was in the request when the decision was made. See https://ns.adobe.com/experience/decisioning/scope-details."
         },
         "xdm:items": {
-          "title": "Decision Options' Snapshot",
+          "title": "Decision Option Snapshots",
           "description": "Snapshot of the options that were selected by this proposition. The objects contain at least the xdm:id property value which is the identifier of an option. The intention is that either the selections or the fallback property is required.",
           "type": "array",
           "items": {
